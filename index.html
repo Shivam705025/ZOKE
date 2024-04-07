@@ -14,26 +14,37 @@ body {
 }
 
 header {
-    background-color: #49A6E8;
+    background-color: #87CEEB; /* Sky Blue */
     color: #fff;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #49A6E8; /* Light Blue */
+    transition: background-color 0.3s ease;
 }
 
-footer {
-    background-color: #49A6E8;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+nav ul li a:hover {
+    background-color: #40a4ed; /* Slightly darker shade of blue on hover */
 }
 
-/* Additional styles for readability and consistency */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -50,16 +61,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
 section {
     padding: 40px 0;
 }
@@ -68,6 +69,12 @@ section {
     margin-bottom: 20px;
 }
 
+footer {
+    background-color: #49A6E8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
     </style>
 </head>
 <body>
